@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <h1>Create An Acount</h1>
+  </head>
+  <body>
+    <form>
+
+      <!--파일을 추가하시오. pdf 형식의 파일만 허용-->
+      <!--이미지 파일이면 모두 가능: image/*-->
+      <input type="file" accept=".pdf"/>
+      <!-- required(필수 입력란)-->
+      <input required placeholder="Name" type = "text" />
+      <input placeholder="Last Name" type = "text" />
+      <input placeholder="Username" type = "text" />
+      <!--pw는 최소 10개 이상이어야 함-->
+      <input placeholder="Password" minlength = "10" type = "password" />
+      <input type="submit" value = "Create Account" />
+    </form>
+
+  </body>
+</html>
+</home>
